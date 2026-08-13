@@ -1,0 +1,30 @@
+/* Reset and layout base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.layout-container {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    grid-template-rows: 80px 1fr 100px;
+    height: 100vh;
+    width: 100vw;
+}
+
+.header { background-color: #000000; }
+.content { background-color: #FFFFFF; }
+.footer { background-color: #333333; }
+
+/* The 5 Unique Sidebar Colors */
+.sidebar-purple { background-color: #8728DC; } /* Index */
+.sidebar-red { background-color: #EC0101; }    /* Products */
+.sidebar-blue { background-color: #01AFEE; }   /* About */
+.sidebar-green { background-color: #94D349; }  /* Contact */
+.sidebar-orange { background-color: #FBBC03; } /* Enquiries */
