@@ -1,0 +1,493 @@
+/* =========================================================
+DRIPCLOUD WEBSITE
+External Stylesheet
+Part 2 - WEDE5020
+========================================================= */
+
+/* =========================================================
+
+1. DEFAULT / RESET STYLES
+   ========================================================= */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  }
+
+html {
+scroll-behavior: smooth;
+}
+
+body {
+font-family: Arial, Helvetica, sans-serif;
+background-color: #ffffff;
+color: #222222;
+line-height: 1.6;
+}
+
+img {
+max-width: 100%;
+height: auto;
+display: block;
+}
+
+a {
+color: inherit;
+text-decoration: none;
+}
+
+ul {
+list-style: none;
+}
+
+/* =========================================================
+2. GENERAL CONTAINER
+========================================================= */
+
+.container {
+width: 90%;
+max-width: 1200px;
+margin: 0 auto;
+}
+
+/* =========================================================
+3. HEADER
+========================================================= */
+
+header {
+background-color: #111111;
+color: #ffffff;
+width: 100%;
+padding: 15px 0;
+}
+
+header .container {
+display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 20px;
+}
+
+/* =========================================================
+4. LOGO / BRAND
+========================================================= */
+
+.logo {
+font-size: 1.8rem;
+font-weight: 700;
+letter-spacing: 1px;
+}
+
+.logo a {
+color: #ffffff;
+}
+
+/* =========================================================
+5. NAVIGATION
+========================================================= */
+
+nav ul {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 10px;
+}
+
+nav a {
+display: block;
+color: #ffffff;
+padding: 10px 15px;
+font-size: 1rem;
+font-weight: 600;
+border-radius: 5px;
+transition: 0.3s ease;
+}
+
+/* Pseudo-class: hover */
+
+nav a:hover {
+background-color: #ffffff;
+color: #111111;
+}
+
+/* Pseudo-class: focus */
+
+nav a:focus {
+outline: 2px solid #ffffff;
+outline-offset: 3px;
+}
+
+/* =========================================================
+6. HERO SECTION
+========================================================= */
+
+.hero {
+min-height: 70vh;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+padding: 80px 20px;
+background-color: #eeeeee;
+}
+
+.hero-content {
+max-width: 800px;
+margin: 0 auto;
+}
+
+.hero h1 {
+font-size: 3rem;
+line-height: 1.2;
+margin-bottom: 20px;
+font-weight: 800;
+}
+
+.hero p {
+font-size: 1.2rem;
+margin-bottom: 30px;
+}
+
+/* =========================================================
+7. HEADINGS & TYPOGRAPHY
+========================================================= */
+
+h1,
+h2,
+h3,
+h4 {
+line-height: 1.2;
+margin-bottom: 15px;
+}
+
+h1 {
+font-size: 2.8rem;
+}
+
+h2 {
+font-size: 2.2rem;
+}
+
+h3 {
+font-size: 1.5rem;
+}
+
+p {
+font-size: 1rem;
+margin-bottom: 15px;
+}
+
+.section-title {
+text-align: center;
+margin-bottom: 40px;
+}
+
+/* =========================================================
+8. GENERAL SECTIONS
+========================================================= */
+
+section {
+padding: 60px 0;
+}
+
+/* =========================================================
+9. BUTTONS
+========================================================= */
+
+.btn {
+display: inline-block;
+background-color: #111111;
+color: #ffffff;
+padding: 12px 25px;
+border: 2px solid #111111;
+border-radius: 5px;
+font-weight: 600;
+cursor: pointer;
+transition: 0.3s ease;
+}
+
+/* Pseudo-class: hover */
+
+.btn:hover {
+background-color: #ffffff;
+color: #111111;
+}
+
+/* Pseudo-class: active */
+
+.btn:active {
+transform: translateY(1px);
+}
+
+/* =========================================================
+10. PRODUCTS SECTION
+========================================================= */
+
+.products {
+background-color: #ffffff;
+}
+
+.product-grid {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 25px;
+}
+
+.product-card {
+background-color: #f5f5f5;
+border: 1px solid #dddddd;
+border-radius: 10px;
+overflow: hidden;
+transition: 0.3s ease;
+}
+
+/* Pseudo-class: hover */
+
+.product-card:hover {
+transform: translateY(-5px);
+box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.product-card img {
+width: 100%;
+height: auto;
+}
+
+.product-card-content {
+padding: 20px;
+}
+
+.product-card h3 {
+margin-bottom: 10px;
+}
+
+.product-price {
+font-weight: 700;
+font-size: 1.1rem;
+margin-bottom: 15px;
+}
+
+/* =========================================================
+11. ABOUT SECTION
+========================================================= */
+
+.about {
+background-color: #eeeeee;
+}
+
+.about-content {
+max-width: 900px;
+margin: 0 auto;
+text-align: center;
+}
+
+/* =========================================================
+12. CONTACT / ENQUIRY FORM
+========================================================= */
+
+.contact-form {
+max-width: 700px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+.form-group label {
+display: block;
+margin-bottom: 8px;
+font-weight: 600;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+width: 100%;
+padding: 12px;
+border: 1px solid #cccccc;
+border-radius: 5px;
+font-family: inherit;
+font-size: 1rem;
+}
+
+/* Pseudo-class: focus */
+
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+outline: 2px solid #111111;
+border-color: #111111;
+}
+
+.form-group textarea {
+min-height: 150px;
+resize: vertical;
+}
+
+/* =========================================================
+13. FOOTER
+========================================================= */
+
+footer {
+background-color: #111111;
+color: #ffffff;
+text-align: center;
+padding: 30px 20px;
+}
+
+footer p {
+margin-bottom: 5px;
+}
+
+footer a {
+color: #ffffff;
+text-decoration: underline;
+}
+
+footer a:hover {
+text-decoration: none;
+}
+
+/* =========================================================
+14. RESPONSIVE IMAGES
+========================================================= */
+
+.responsive-image {
+width: 100%;
+max-width: 100%;
+height: auto;
+}
+
+/* =========================================================
+15. TABLETS
+Breakpoint: 768px
+========================================================= */
+
+@media (max-width: 768px) {
+
+```
+header .container {
+    flex-direction: column;
+    text-align: center;
+}
+
+nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+nav a {
+    padding: 8px 10px;
+    font-size: 0.95rem;
+}
+
+.hero {
+    min-height: 60vh;
+    padding: 60px 20px;
+}
+
+.hero h1 {
+    font-size: 2.3rem;
+}
+
+.hero p {
+    font-size: 1.05rem;
+}
+
+h1 {
+    font-size: 2.4rem;
+}
+
+h2 {
+    font-size: 1.9rem;
+}
+
+.product-grid {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+section {
+    padding: 50px 0;
+}
+```
+
+}
+
+/* =========================================================
+16. MOBILE DEVICES
+Breakpoint: 480px
+========================================================= */
+
+@media (max-width: 480px) {
+
+```
+.container {
+    width: 94%;
+}
+
+header {
+    padding: 12px 0;
+}
+
+.logo {
+    font-size: 1.5rem;
+}
+
+nav ul {
+    flex-direction: column;
+    width: 100%;
+    gap: 3px;
+}
+
+nav a {
+    width: 100%;
+    text-align: center;
+    padding: 8px;
+}
+
+.hero {
+    min-height: 55vh;
+    padding: 50px 15px;
+}
+
+.hero h1 {
+    font-size: 1.9rem;
+}
+
+.hero p {
+    font-size: 0.95rem;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.6rem;
+}
+
+h3 {
+    font-size: 1.3rem;
+}
+
+p {
+    font-size: 0.95rem;
+}
+
+.product-grid {
+    grid-template-columns: 1fr;
+}
+
+.btn {
+    width: 100%;
+    text-align: center;
+}
+
+section {
+    padding: 40px 0;
+}
+```
+
+}
