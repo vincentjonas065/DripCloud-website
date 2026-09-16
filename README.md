@@ -158,3 +158,51 @@ Descriptive commit messages were used to identify major changes such as styleshe
 
 ```bash
 git clone https://github.com/vincentjonas065/DripCloud-website.git
+2. Open the project folder in Visual Studio Code.
+
+3. Open `index.html`.
+
+4. Use the Live Server extension in Visual Studio Code or open `index.html` directly in a modern web browser.
+
+## Part 2 Improvements
+
+Part 2 focused on improving the website styling and responsive behaviour.
+
+The main improvements include:
+
+- Updated the external CSS stylesheet.
+- Applied the stylesheet consistently across all website pages.
+- Added default CSS styles.
+- Added typography styles.
+- Improved page layout and spacing.
+- Added colours, backgrounds, borders and decorative styling.
+- Added hover, focus and active pseudo-classes.
+- Added responsive CSS media queries.
+- Added tablet, mobile and small-screen breakpoints.
+- Improved responsive navigation.
+- Improved responsive product images.
+- Improved responsive product grids.
+- Improved responsive typography.
+- Added responsive styling for the contact map.
+- Removed unnecessary inline styling from pages.
+- Improved the Thank You page layout.
+
+## References
+
+CYR, D., 2008. Modeling web site design across cultures: perspectives from Latin America, Europe, and the United States. *Journal of the Association for Information Systems*, 9(8), pp.439–465.
+
+GARRETT, J.J., 2002. *The Elements of User Experience: User-Centered Design for the Web*. New Riders.
+
+INTERACTION DESIGN FOUNDATION, 2026. *E-commerce UI/UX: Best Practices for Online Stores* [online]. Available at: https://www.interaction-design.org/literature/article/e-commerce-ui-ux [Accessed 5 August 2026].
+
+MDN WEB DOCS, 2026. *HTML: HyperText Markup Language* [online]. Available at: https://developer.mozilla.org/en-US/docs/Web/HTML [Accessed 5 August 2026].
+
+NIELSEN NORMAN GROUP, 2025. *E-commerce User Experience* [online]. Available at: https://www.nngroup.com/articles/e-commerce-usability/ [Accessed 5 August 2026].
+
+PALMER, J.W., 2002. Web site usability, design and performance metrics. *Information Systems Research*, 13(2), pp.151–167.
+
+ROBINS, D. and HOLMES, J., 2008. Aesthetics and credibility in web site design. *Information Processing & Management*, 44(1), pp.386–399.
+
+WORLD WIDE WEB CONSORTIUM (W3C), 2026. *Web Content Accessibility Guidelines (WCAG) 2.2* [online]. Available at: https://www.w3.org/TR/WCAG22/ [Accessed 5 August 2026].
+
+W3SCHOOLS, 2026. *HTML5 Semantic Elements* [online]. Available at: https://www.w3schools.com/html/html5_semantic_elements.asp [Accessed 5 August 2026].
