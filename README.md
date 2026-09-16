@@ -90,20 +90,21 @@ git clone https://github.com/vincentjonas065/DripCloud-website.git
 
 ## References
 
-CYR, D., 2008. Modeling web site design across cultures: perspectives. *Journal of the Association for Information Systems* 9(8) pp. 439–465.
+CYR, D., 2008. Modeling web site design across cultures: perspectives from Latin America, Europe, and the United States. *Journal of the Association for Information Systems*, 9(8), pp.439–465.
 
-GARRETT, J.J., 2002. Elements of user experience: design for the web. *Journal of Web Librarianship* 2(1) pp. 25–39.
+GARRETT, J.J., 2002. *The elements of user experience: user-centered design for the web*. New Riders.
 
-INTERACTION DESIGN FOUNDATION, 2026. *UI/UX Best Practices for Modern E-Commerce Platforms* [online]. Available at: https://www.interaction-design.org/literature/article/e-commerce-ui-ux [Accessed 5 August 2026].
+INTERACTION DESIGN FOUNDATION, 2026. *E-commerce UI/UX: best practices for online stores* [online]. Available at: https://www.interaction-design.org/literature/article/e-commerce-ui-ux [Accessed 5 August 2026].
 
-MOZILLA DEVELOPER NETWORK (MDN) 2026. *HTML: HyperText Markup Language Documentation* [online]. Available at: https://developer.mozilla.org/en-US/docs/Web/HTML [Accessed 5 August 2026].
+MDN WEB DOCS, 2026. *HTML: HyperText Markup Language* [online]. Available at: https://developer.mozilla.org/en-US/docs/Web/HTML [Accessed 5 August 2026].
 
-NIELSEN NORMAN GROUP, 2025. *E-Commerce User Experience Guidelines* [online]. Available at: https://www.nngroup.com/articles/e-commerce-usability/ [Accessed 5 August 2026].
+NIELSEN NORMAN GROUP, 2025. *E-commerce user experience* [online]. Available at: https://www.nngroup.com/articles/e-commerce-usability/ [Accessed 5 August 2026].
 
-PALMER, J.W., 2002. Web site usability, design and performance metrics. *Information Systems Research*, 13(2) pp. 151–167.
+PALMER, J.W., 2002. Web site usability, design and performance metrics. *Information Systems Research*, 13(2), pp.151–167.
 
-ROBINS, D. And HOLMES, J., 2008.. Credibility in web site design. *Information. Management*, 44(1) pp. 386–399.
+ROBINS, D. and HOLMES, J., 2008. Aesthetics and credibility in web site design. *Information Processing & Management*, 44(1), pp.386–399.
 
-WORLD WIDE WEB CONSORTIUM (W3C) 2026. *Web Content Accessibility Guidelines (WCAG) 2.2* [online]. Available at: https://www.w3.org/TR/WCAG22/ [Accessed 5 August 2026].
+WORLD WIDE WEB CONSORTIUM (W3C), 2026. *Web Content Accessibility Guidelines (WCAG) 2.2* [online]. Available at: https://www.w3.org/TR/WCAG22/ [Accessed 5 August 2026].
 
-W3SCHOOLS, 2026. *HTML5 Semantic Elements* [online]. Available, at: https://www.w3schools.com/html/html5_semantic_elements.asp [Accessed 5 August 2026].
+W3SCHOOLS, 2026. *HTML5 semantic elements* [online]. Available at: https://www.w3schools.com/html/html5_semantic_elements.asp [Accessed 5 August 2026].
+
