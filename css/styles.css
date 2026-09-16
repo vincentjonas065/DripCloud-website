@@ -1,4 +1,4 @@
-/* Default styles */
+/* Default */
 
 * {
     box-sizing: border-box;
@@ -148,7 +148,7 @@ main {
 }
 
 
-/* Homepage sections */
+/* Homepage */
 
 .hero-section,
 .welcome-section,
@@ -186,7 +186,7 @@ main {
 }
 
 
-/* Homepage content */
+/* Homepage sections */
 
 .welcome-section {
     background-color: #f5f5f5;
@@ -360,7 +360,7 @@ main {
 }
 
 
-/* Product prices */
+/* Prices */
 
 .product-price {
     display: block;
@@ -425,7 +425,7 @@ button:hover {
 }
 
 
-/* General content sections */
+/* Content sections */
 
 .about-section,
 .contact-section,
@@ -445,9 +445,11 @@ button:hover {
 /* Images */
 
 .logo {
-    width: 100px;
-    height: 100px;
-    margin: 0 auto 15px;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin: 0 5px 0 0;
+    vertical-align: middle;
     object-fit: contain;
 }
 
@@ -468,6 +470,40 @@ main a:not(.product-button) {
 
 main a:not(.product-button):hover {
     color: #555555;
+}
+
+
+/* Map */
+
+.contact-section iframe {
+    display: block;
+    width: 100%;
+    max-width: 800px;
+    height: 450px;
+    margin: 30px auto 0;
+    border: 0;
+}
+
+
+/* Thank you */
+
+.thankyou-section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 80px 30px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.thankyou-section h2 {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+
+.thankyou-section p {
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -627,15 +663,27 @@ footer p {
         padding: 40px 20px;
     }
 
+    .thankyou-section {
+        padding: 50px 20px;
+    }
+
+    .thankyou-section h2 {
+        font-size: 2rem;
+    }
+
+    .contact-section iframe {
+        height: 350px;
+    }
+
     .logo {
-        width: 80px;
-        height: 80px;
+        width: 50px;
+        height: 50px;
     }
 
 }
 
 
-/* Small mobile screens */
+/* Small screens */
 
 @media (max-width: 400px) {
 
@@ -675,6 +723,14 @@ footer p {
 
     nav a {
         padding: 8px;
+    }
+
+    .thankyou-section {
+        padding: 30px 15px;
+    }
+
+    .contact-section iframe {
+        height: 300px;
     }
 
 }
