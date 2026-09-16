@@ -2,147 +2,69 @@
 <html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>DRIP CLOUD | Product Enquiry</title>
-
-    <link rel="icon" type="image/png" href="../image/background/orange.png">
-
+    <title>Enquiry | DRIP CLOUD</title>
 </head>
-
-<header>
-
-    <h1>
-
-        <img src="../image/background/orange.png"
-             alt="cotton T-shirt"
-             style="width: 100px; height: 100px; vertical-align: middle; margin-right: 5px;">
-
-        DRIP CLOUD
-
-    </h1>
-
-    <p>Float Above the Rest</p>
-
-    <!-- Main website navigation -->
-    <nav>
-        <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="./about.html">About Us</a></li>
-            <li><a href="./products.html">Products</a></li>
-            <li><a href="./enquiry.html">Enquiry</a></li>
-            <li><a href="./contact.html">Contact Us</a></li>
-        </ul>
-    </nav>
-
-    <hr>
-
-</header>
 
 <body>
 
-    <section class="enquiry-form-section">
+    <!-- Header and navigation -->
+    <header>
+        <h1>DRIP CLOUD</h1>
+        <p>Float Above the Rest</p>
 
-        <h2>Product & Size Inquiries</h2>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="./about.html">About Us</a></li>
+                <li><a href="./products.html">Products</a></li>
+                <li><a href="./enquiry.html">Enquiry</a></li>
+                <li><a href="./contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
 
-        <p>
-            Submit a pre-order request or check size availability for upcoming drops.
-        </p>
+    <!-- Enquiry form -->
+    <main>
+        <h2>Make an Enquiry</h2>
 
-        <!-- Product enquiry form -->
-        <form action="thankyou.html" method="get">
+        <form action="./thankyou.html" method="get">
 
-            <label for="fullname">Full Name:</label><br>
-
-            <input type="text"
-                   id="fullname"
-                   name="fullname"
-                   required>
-
-            <br><br>
-
-            <label for="email">Email Address:</label><br>
-
-            <input type="email"
-                   id="email"
-                   name="email"
-                   required>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
 
             <br><br>
 
-            <label for="product">Product Interested In:</label><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
 
+            <br><br>
+
+            <label for="product">Product:</label>
             <select id="product" name="product">
-
-                <option>cotton_tshirt</option>
-
-                <option value="tracksuit">
-                    Track Suit
-                </option>
-
-                <option value="tee">
-                    husstle_in_silence
-                </option>
-
-                <option value="tee">
-                    Drip cloud grapic tee
-                </option>
-
-                <option value="tee">
-                    drip cloud back design tee
-                </option>
-
-                <option value="tee">
-                    apologies tee
-                </option>
-
-                <option value="tee">
-                    Purple t-shirt
-                </option>
-
-                <option value="tee">
-                    Apologies hoodie
-                </option>
-
-                <option value="tee">
-                    Apologies hoodie
-                </option>
-
+                <option value="hoodie">Hoodie</option>
+                <option value="tshirt">T-Shirt</option>
+                <option value="pants">Pants</option>
+                <option value="accessories">Accessories</option>
             </select>
 
             <br><br>
 
-            <label for="message">
-                Enquiry Details:
-            </label><br>
-
-            <textarea
-                id="message"
-                name="message"
-                rows="5"
-                required>
-            </textarea>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
 
             <br><br>
 
-            <button type="submit">
-                Submit Enquiry
-            </button>
+            <button type="submit">Submit Enquiry</button>
 
         </form>
+    </main>
 
-    </section>
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 DRIP CLOUD. All rights reserved.</p>
+    </footer>
 
 </body>
-
-<footer>
-
-    <hr>
-
-    <p>&copy; 2026 DRIP CLOUD. All rights reserved.</p>
-
-</footer>
-
 </html>
