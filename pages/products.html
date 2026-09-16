@@ -1,223 +1,318 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!-- Product catalogue -->
+
+    <!-- Product catalogue -->
     <title>Products | DRIP CLOUD</title>
-<link rel="stylesheet" href="../css/styles.css">
+
+    <link rel="stylesheet" href="../css/styles.css">
     <link rel="icon" type="image/png" href="../image/background/orange.png">
-
-    <style>
-        .product-grid {
-            width: 100%;
-            border-collapse: separate;
-            border-spacing: 20px;
-        }
-
-        .product-grid td {
-            width: 33.33%;
-            text-align: center;
-            vertical-align: top;
-        }
-
-        .product-grid img {
-            width: 100%;
-            max-width: 300px;
-            height: 250px;
-            object-fit: cover;
-        }
-
-        .product-grid h3 {
-            margin-bottom: 5px;
-        }
-
-        .product-grid p {
-            margin-top: 5px;
-        }
-    </style>
 </head>
 
 <body>
 
     <!-- Header and navigation -->
-  <header>
+    <header>
 
-    <h1>DRIP CLOUD</h1>
+        <h1>DRIP CLOUD</h1>
 
-    <p>Float Above the Rest</p>
+        <p>Float Above the Rest</p>
 
-    <nav>
-        <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="./about.html">About Us</a></li>
-            <li><a href="./products.html">Products</a></li>
-            <li><a href="./enquiry.html">Enquiry</a></li>
-            <li><a href="./contact.html">Contact Us</a></li>
-        </ul>
-    </nav>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="./about.html">About Us</a></li>
+                <li><a href="./products.html">Products</a></li>
+                <li><a href="./enquiry.html">Enquiry</a></li>
+                <li><a href="./contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
 
-</header>
+    </header>
 
 
     <!-- Products -->
     <main>
 
-        <h2>Our Products</h2>
+        <section class="products-section">
 
-        <section>
+            <h2>Our Products</h2>
 
             <h3>DRIP CLOUD Collection</h3>
 
-            <p>Explore our latest clothing collection.</p>
+            <p class="products-intro">
+                Explore our latest clothing collection and discover
+                unique streetwear styles from DRIP CLOUD.
+            </p>
 
 
-            <!-- 3 x 3 Product Grid -->
-            <table class="product-grid">
+            <div class="product-grid">
 
-                <!-- Row 1 -->
-                <tr>
 
-                    <td>
-                        <a href="./enquiry.html">
-                            <img src="../image/products/OIP.jpg"
-                                 alt="DRIP CLOUD Collection">
-                        </a>
+                <!-- Product 1 -->
+                <article class="product-card">
+
+                    <a href="./enquiry.html">
+                        <img src="../image/products/OIP.jpg"
+                             alt="DRIP CLOUD Collection">
+                    </a>
+
+                    <div class="product-card-content">
 
                         <h3>DRIP CLOUD Collection</h3>
 
-                        <p>Explore our DRIP CLOUD collection.</p>
+                        <p>
+                            Explore our DRIP CLOUD collection.
+                        </p>
 
-                        <a href="./enquiry.html">Enquire</a>
-                    </td>
+                        <strong>Price: R699.99</strong>
 
+                        <br><br>
 
-                    <td>
-                        <a href="./enquiry.html">
-                            <img src="../image/products/cotton_tshirt_flatlay.jpg"
-                                 alt="DRIP CLOUD Cotton T-Shirt">
+                        <a class="product-button" href="./enquiry.html">
+                            Enquire
                         </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Product 2 -->
+                <article class="product-card">
+
+                    <a href="./enquiry.html">
+                        <img src="../image/products/cotton_tshirt_flatlay.jpg"
+                             alt="DRIP CLOUD Cotton T-Shirt">
+                    </a>
+
+                    <div class="product-card-content">
 
                         <h3>Cotton T-Shirt</h3>
 
-                        <p>Comfortable cotton DRIP CLOUD T-shirt.</p>
+                        <p>
+                            Comfortable cotton DRIP CLOUD T-shirt.
+                        </p>
 
-                        <a href="./enquiry.html">Enquire</a>
-                    </td>
+                        <strong>Price: R349.99</strong>
 
+                        <br><br>
 
-                    <td>
-                        <a href="./enquiry.html">
-                            <img src="../image/products/grey_tracksuit_lookbook.jpg"
-                                 alt="DRIP CLOUD Grey Tracksuit">
+                        <a class="product-button" href="./enquiry.html">
+                            Enquire
                         </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Product 3 -->
+                <article class="product-card">
+
+                    <a href="./enquiry.html">
+                        <img src="../image/products/grey_tracksuit_lookbook.jpg"
+                             alt="DRIP CLOUD Grey Tracksuit">
+                    </a>
+
+                    <div class="product-card-content">
 
                         <h3>Grey Tracksuit</h3>
 
-                        <p>Comfortable DRIP CLOUD tracksuit.</p>
+                        <p>
+                            Comfortable DRIP CLOUD tracksuit.
+                        </p>
 
-                        <a href="./enquiry.html">Enquire</a>
-                    </td>
+                        <strong>Price: R899.99</strong>
 
-                </tr>
+                        <br><br>
 
-
-                <!-- Row 2 -->
-                <tr>
-
-                    <td>
-                        <a href="./enquiry.html">
-                            <img src="../image/products/husstle_in_silence.jpg"
-                                 alt="DRIP CLOUD Hustle in Silence">
+                        <a class="product-button" href="./enquiry.html">
+                            Enquire
                         </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Product 4 -->
+                <article class="product-card">
+
+                    <a href="./enquiry.html">
+                        <img src="../image/products/husstle_in_silence.jpg"
+                             alt="DRIP CLOUD Hustle in Silence">
+                    </a>
+
+                    <div class="product-card-content">
 
                         <h3>Hustle in Silence</h3>
 
-                        <p>DRIP CLOUD graphic clothing design.</p>
+                        <p>
+                            DRIP CLOUD graphic clothing design.
+                        </p>
 
-                        <a href="./enquiry.html">Enquire</a>
-                    </td>
+                        <strong>Price: R449.99</strong>
 
+                        <br><br>
 
-                    <td>
-                        <a href="./enquiry.html">
-                            <img src="../image/products/real-life-streetwear-photo-model-wearing-black-and.jpg"
-                                 alt="DRIP CLOUD Black Streetwear">
+                        <a class="product-button" href="./enquiry.html">
+                            Enquire
                         </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Product 5 -->
+                <article class="product-card">
+
+                    <a href="./enquiry.html">
+                        <img src="../image/products/real-life-streetwear-photo-model-wearing-black-and.jpg"
+                             alt="DRIP CLOUD Black Streetwear">
+                    </a>
+
+                    <div class="product-card-content">
 
                         <h3>Black Streetwear</h3>
 
-                        <p>Stylish DRIP CLOUD streetwear.</p>
+                        <p>
+                            Stylish DRIP CLOUD streetwear.
+                        </p>
 
-                        <a href="./enquiry.html">Enquire</a>
-                    </td>
+                        <strong>Price: R499.99</strong>
 
+                        <br><br>
 
-                    <td>
-                        <a href="./enquiry.html">
-                            <img src="../image/products/red and black graphic white tee.jpg"
-                                 alt="DRIP CLOUD Red and Black Graphic T-Shirt">
+                        <a class="product-button" href="./enquiry.html">
+                            Enquire
                         </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Product 6 -->
+                <article class="product-card">
+
+                    <a href="./enquiry.html">
+                        <img src="../image/products/red and black graphic white tee.jpg"
+                             alt="DRIP CLOUD Red and Black Graphic T-Shirt">
+                    </a>
+
+                    <div class="product-card-content">
 
                         <h3>Red &amp; Black Graphic Tee</h3>
 
-                        <p>Bold DRIP CLOUD graphic T-shirt.</p>
+                        <p>
+                            Bold DRIP CLOUD graphic T-shirt.
+                        </p>
 
-                        <a href="./enquiry.html">Enquire</a>
-                    </td>
+                        <strong>Price: R399.99</strong>
 
-                </tr>
+                        <br><br>
 
-
-                <!-- Row 3 -->
-                <tr>
-
-                    <td>
-                        <a href="./enquiry.html">
-                            <img src="../image/products/white and red tee.jpg"
-                                 alt="DRIP CLOUD White and Red T-Shirt">
+                        <a class="product-button" href="./enquiry.html">
+                            Enquire
                         </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Product 7 -->
+                <article class="product-card">
+
+                    <a href="./enquiry.html">
+                        <img src="../image/products/white and red tee.jpg"
+                             alt="DRIP CLOUD White and Red T-Shirt">
+                    </a>
+
+                    <div class="product-card-content">
 
                         <h3>White &amp; Red Tee</h3>
 
-                        <p>White and red DRIP CLOUD T-shirt.</p>
+                        <p>
+                            White and red DRIP CLOUD T-shirt.
+                        </p>
 
-                        <a href="./enquiry.html">Enquire</a>
-                    </td>
+                        <strong>Price: R399.99</strong>
 
+                        <br><br>
 
-                    <td>
-                        <a href="./enquiry.html">
-                            <img src="../image/products/white and yellow.jpg"
-                                 alt="DRIP CLOUD White and Yellow Clothing">
+                        <a class="product-button" href="./enquiry.html">
+                            Enquire
                         </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Product 8 -->
+                <article class="product-card">
+
+                    <a href="./enquiry.html">
+                        <img src="../image/products/white and yellow.jpg"
+                             alt="DRIP CLOUD White and Yellow Clothing">
+                    </a>
+
+                    <div class="product-card-content">
 
                         <h3>White &amp; Yellow Collection</h3>
 
-                        <p>Fresh white and yellow DRIP CLOUD style.</p>
+                        <p>
+                            Fresh white and yellow DRIP CLOUD style.
+                        </p>
 
-                        <a href="./enquiry.html">Enquire</a>
-                    </td>
+                        <strong>Price: R549.99</strong>
 
+                        <br><br>
 
-                    <td>
-                        <a href="./enquiry.html">
-                            <img src="../image/products/yellow lightning hoodie.webp"
-                                 alt="DRIP CLOUD Yellow Lightning Hoodie">
+                        <a class="product-button" href="./enquiry.html">
+                            Enquire
                         </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Product 9 -->
+                <article class="product-card">
+
+                    <a href="./enquiry.html">
+                        <img src="../image/products/yellow lightning hoodie.webp"
+                             alt="DRIP CLOUD Yellow Lightning Hoodie">
+                    </a>
+
+                    <div class="product-card-content">
 
                         <h3>Yellow Lightning Hoodie</h3>
 
-                        <p>Bold DRIP CLOUD lightning hoodie.</p>
+                        <p>
+                            Bold DRIP CLOUD lightning hoodie.
+                        </p>
 
-                        <a href="./enquiry.html">Enquire</a>
-                    </td>
+                        <strong>Price: R649.99</strong>
 
-                </tr>
+                        <br><br>
 
-            </table>
+                        <a class="product-button" href="./enquiry.html">
+                            Enquire
+                        </a>
+
+                    </div>
+
+                </article>
+
+            </div>
 
         </section>
 
@@ -234,4 +329,3 @@
 </body>
 
 </html>
-```
