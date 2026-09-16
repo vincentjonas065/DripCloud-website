@@ -16,15 +16,25 @@ The website gives visitors details about Drip Cloud and its products. Lets visit
 
 ## Repository Structure
 
-The project is arranged into the files and folders listed below:
+The project is arranged into the following files and folders:
 
 * `index.html` – Home page of the Drip Cloud website.
 
-* `Pages/` – Holds the About Us, Products, Enquiry, Contact Us. Thank You pages.
+* `pages/` – Contains the About Us, Products, Enquiry, Contact Us and Thank You pages.
 
-* `Image/` – Holds the images and visual assets used on the website.
+* `css/` – Contains the website styling files.
 
-* `README.md` – Holds information about the project, setup instructions and references.
+* `js/` – Contains JavaScript files used by the website.
+
+* `image/` – Contains the background and product images used on the website.
+
+* `wireframes/` – Contains the website wireframe images created during the planning stage.
+
+* `README.md` – Contains information about the project, setup instructions and references.
+
+* `Current Website Analysis.docx` – Contains the analysis of the existing website/business presence.
+
+* `DripCloud_Part1_New_Wireframes_with_Comments.docx` – Contains the Part 1 wireframes and related comments.
 
 ## Design & Styling
 
