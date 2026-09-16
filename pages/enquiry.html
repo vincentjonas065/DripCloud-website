@@ -4,14 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Enquiry | DRIP CLOUD</title>
+
+    <link rel="icon" type="image/png" href="../image/background/orange.png">
 </head>
 
 <body>
 
     <!-- Header and navigation -->
     <header>
+
         <h1>DRIP CLOUD</h1>
+
         <p>Float Above the Rest</p>
 
         <nav>
@@ -23,48 +28,154 @@
                 <li><a href="./contact.html">Contact Us</a></li>
             </ul>
         </nav>
+
     </header>
+
 
     <!-- Enquiry form -->
     <main>
-        <h2>Make an Enquiry</h2>
 
-        <form action="./thankyou.html" method="get">
+        <section>
 
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
+            <h2>Product &amp; Size Enquiry</h2>
 
-            <br><br>
+            <p>
+                Submit a pre-order request or enquire about product and size availability.
+            </p>
 
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
 
-            <br><br>
+            <form action="./thankyou.html" method="get">
 
-            <label for="product">Product:</label>
-            <select id="product" name="product">
-                <option value="hoodie">Hoodie</option>
-                <option value="tshirt">T-Shirt</option>
-                <option value="pants">Pants</option>
-                <option value="accessories">Accessories</option>
-            </select>
+                <!-- Full Name -->
+                <label for="fullname">Full Name:</label>
+                <br>
 
-            <br><br>
+                <input
+                    type="text"
+                    id="fullname"
+                    name="fullname"
+                    required
+                >
 
-            <label for="message">Message:</label>
-            <textarea id="message" name="message"></textarea>
+                <br><br>
 
-            <br><br>
 
-            <button type="submit">Submit Enquiry</button>
+                <!-- Email -->
+                <label for="email">Email Address:</label>
+                <br>
 
-        </form>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    required
+                >
+
+                <br><br>
+
+
+                <!-- Product -->
+                <label for="product">Product Interested In:</label>
+                <br>
+
+                <select id="product" name="product" required>
+
+                    <option value="">-- Select a Product --</option>
+
+                    <option value="drip-cloud-collection">
+                        DRIP CLOUD Collection
+                    </option>
+
+                    <option value="cotton-tshirt">
+                        Cotton T-Shirt
+                    </option>
+
+                    <option value="grey-tracksuit">
+                        Grey Tracksuit
+                    </option>
+
+                    <option value="hustle-in-silence">
+                        Hustle in Silence
+                    </option>
+
+                    <option value="black-streetwear">
+                        Black Streetwear
+                    </option>
+
+                    <option value="red-black-graphic-tee">
+                        Red &amp; Black Graphic Tee
+                    </option>
+
+                    <option value="white-red-tee">
+                        White &amp; Red Tee
+                    </option>
+
+                    <option value="white-yellow-collection">
+                        White &amp; Yellow Collection
+                    </option>
+
+                    <option value="yellow-lightning-hoodie">
+                        Yellow Lightning Hoodie
+                    </option>
+
+                </select>
+
+                <br><br>
+
+
+                <!-- Size -->
+                <label for="size">Preferred Size:</label>
+                <br>
+
+                <select id="size" name="size" required>
+
+                    <option value="">-- Select a Size --</option>
+
+                    <option value="small">Small (S)</option>
+                    <option value="medium">Medium (M)</option>
+                    <option value="large">Large (L)</option>
+                    <option value="extra-large">Extra Large (XL)</option>
+
+                </select>
+
+                <br><br>
+
+
+                <!-- Enquiry Details -->
+                <label for="message">Enquiry Details:</label>
+                <br>
+
+                <textarea
+                    id="message"
+                    name="message"
+                    rows="5"
+                    cols="40"
+                    placeholder="Enter your enquiry here..."
+                    required
+                ></textarea>
+
+                <br><br>
+
+
+                <!-- Submit -->
+                <button type="submit">
+                    Submit Enquiry
+                </button>
+
+            </form>
+
+        </section>
+
     </main>
+
 
     <!-- Footer -->
     <footer>
+
         <p>&copy; 2026 DRIP CLOUD. All rights reserved.</p>
+
     </footer>
 
 </body>
+
 </html>
