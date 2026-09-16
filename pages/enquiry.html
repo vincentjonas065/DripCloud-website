@@ -2,53 +2,81 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Enquiry | DRIP CLOUD</title>
-<link rel="stylesheet" href="../css/styles.css">
+
+    <!-- External stylesheet -->
+    <link rel="stylesheet" href="../css/styles.css">
+
+    <!-- Website favicon -->
     <link rel="icon" type="image/png" href="../image/background/orange.png">
+
 </head>
+
 
 <body>
 
     <!-- Header and navigation -->
-  <header>
+    <header>
 
-    <h1>DRIP CLOUD</h1>
+        <h1>DRIP CLOUD</h1>
 
-    <p>Float Above the Rest</p>
+        <p>Float Above the Rest</p>
 
-    <nav>
-        <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="./about.html">About Us</a></li>
-            <li><a href="./products.html">Products</a></li>
-            <li><a href="./enquiry.html">Enquiry</a></li>
-            <li><a href="./contact.html">Contact Us</a></li>
-        </ul>
-    </nav>
+        <nav>
 
-</header>
+            <ul>
+
+                <li>
+                    <a href="../index.html">Home</a>
+                </li>
+
+                <li>
+                    <a href="./about.html">About Us</a>
+                </li>
+
+                <li>
+                    <a href="./products.html">Products</a>
+                </li>
+
+                <li>
+                    <a href="./enquiry.html">Enquiry</a>
+                </li>
+
+                <li>
+                    <a href="./contact.html">Contact Us</a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
 
 
-    <!-- Enquiry form -->
+    <!-- Main enquiry content -->
     <main>
 
-        <section>
+        <section class="enquiry-section">
 
             <h2>Product &amp; Size Enquiry</h2>
 
             <p>
-                Submit a pre-order request or enquire about product and size availability.
+                Submit a pre-order request or enquire about product and
+                size availability.
             </p>
 
 
+            <!-- Enquiry form -->
             <form action="./thankyou.html" method="get">
 
                 <!-- Full Name -->
-                <label for="fullname">Full Name:</label>
-                <br>
+                <label for="fullname">
+                    Full Name:
+                </label>
 
                 <input
                     type="text"
@@ -57,12 +85,11 @@
                     required
                 >
 
-                <br><br>
-
 
                 <!-- Email -->
-                <label for="email">Email Address:</label>
-                <br>
+                <label for="email">
+                    Email Address:
+                </label>
 
                 <input
                     type="email"
@@ -71,16 +98,21 @@
                     required
                 >
 
-                <br><br>
-
 
                 <!-- Product -->
-                <label for="product">Product Interested In:</label>
-                <br>
+                <label for="product">
+                    Product Interested In:
+                </label>
 
-                <select id="product" name="product" required>
+                <select
+                    id="product"
+                    name="product"
+                    required
+                >
 
-                    <option value="">-- Select a Product --</option>
+                    <option value="">
+                        -- Select a Product --
+                    </option>
 
                     <option value="drip-cloud-collection">
                         DRIP CLOUD Collection
@@ -120,44 +152,56 @@
 
                 </select>
 
-                <br><br>
-
 
                 <!-- Size -->
-                <label for="size">Preferred Size:</label>
-                <br>
+                <label for="size">
+                    Preferred Size:
+                </label>
 
-                <select id="size" name="size" required>
+                <select
+                    id="size"
+                    name="size"
+                    required
+                >
 
-                    <option value="">-- Select a Size --</option>
+                    <option value="">
+                        -- Select a Size --
+                    </option>
 
-                    <option value="small">Small (S)</option>
-                    <option value="medium">Medium (M)</option>
-                    <option value="large">Large (L)</option>
-                    <option value="extra-large">Extra Large (XL)</option>
+                    <option value="small">
+                        Small (S)
+                    </option>
+
+                    <option value="medium">
+                        Medium (M)
+                    </option>
+
+                    <option value="large">
+                        Large (L)
+                    </option>
+
+                    <option value="extra-large">
+                        Extra Large (XL)
+                    </option>
 
                 </select>
 
-                <br><br>
 
-
-                <!-- Enquiry Details -->
-                <label for="message">Enquiry Details:</label>
-                <br>
+                <!-- Enquiry details -->
+                <label for="message">
+                    Enquiry Details:
+                </label>
 
                 <textarea
                     id="message"
                     name="message"
                     rows="5"
-                    cols="40"
                     placeholder="Enter your enquiry here..."
                     required
                 ></textarea>
 
-                <br><br>
 
-
-                <!-- Submit -->
+                <!-- Submit button -->
                 <button type="submit">
                     Submit Enquiry
                 </button>
@@ -172,7 +216,9 @@
     <!-- Footer -->
     <footer>
 
-        <p>&copy; 2026 DRIP CLOUD. All rights reserved.</p>
+        <p>
+            &copy; 2026 DRIP CLOUD. All rights reserved.
+        </p>
 
     </footer>
 
