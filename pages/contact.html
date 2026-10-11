@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Enquiry | DRIP CLOUD</title>
+    <title>Products | DRIP CLOUD</title>
 
     <!-- Website logo -->
     <link rel="icon" type="image/png" href="../image/background/logo2.jpg">
@@ -27,8 +27,8 @@
             <ul>
                 <li><a href="../index.html">Home</a></li>
                 <li><a href="./about.html">About Us</a></li>
-                <li><a href="./products.html">Products</a></li>
-                <li><a href="./enquiry.html" aria-current="page">Enquiry</a></li>
+                <li><a href="./products.html" aria-current="page">Products</a></li>
+                <li><a href="./enquiry.html">Enquiry</a></li>
                 <li><a href="./contact.html">Contact Us</a></li>
             </ul>
         </nav>
@@ -36,139 +36,264 @@
     </header>
 
 
-    <!-- Main enquiry content -->
+    <!-- Products -->
     <main>
 
-        <section class="enquiry-section" aria-labelledby="enquiry-heading">
+        <section class="products-section" aria-labelledby="products-heading">
 
-            <h2 id="enquiry-heading">Product &amp; Size Enquiry</h2>
+            <h2 id="products-heading">Our Products</h2>
 
-            <p>
-                Submit a pre-order request, check size availability, or
-                enquire about sponsorship and volunteer opportunities.
+            <p class="products-intro">
+                Explore our latest clothing collection and discover
+                unique streetwear styles from DRIP CLOUD.
             </p>
 
 
-            <!-- Enquiry form -->
-            <form id="enquiry-form" novalidate>
+            <div class="product-grid">
 
-                <!-- Full Name -->
-                <label for="fullname">Full Name:</label>
-                <input
-                    type="text"
-                    id="fullname"
-                    name="fullname"
-                    autocomplete="name"
-                    required
-                >
-                <span class="error-message" id="fullname-error" aria-live="polite"></span>
+                <!-- Product 1 -->
+                <article class="product-card">
 
+                    <a href="./enquiry.html">
+                        <img src="../image/products/OIP.jpg"
+                             alt="DRIP CLOUD Collection">
+                    </a>
 
-                <!-- Email -->
-                <label for="email">Email Address:</label>
-                <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    autocomplete="email"
-                    required
-                >
-                <span class="error-message" id="email-error" aria-live="polite"></span>
+                    <div class="product-card-content">
 
+                        <h3>DRIP CLOUD Collection</h3>
 
-                <!-- Enquiry type -->
-                <label for="enquiry-type">Enquiry Type:</label>
-                <select
-                    id="enquiry-type"
-                    name="enquiry-type"
-                    required
-                >
-                    <option value="">-- Select an Enquiry Type --</option>
-                    <option value="availability">Size Availability</option>
-                    <option value="pre-order">Pre-Order</option>
-                    <option value="sponsorship">Sponsorship</option>
-                    <option value="volunteer">Volunteer</option>
-                </select>
-                <span class="error-message" id="enquiry-type-error" aria-live="polite"></span>
+                        <p>Explore our DRIP CLOUD collection.</p>
+
+                        <strong>Price: R699.99</strong>
+
+                        <br><br>
+
+                        <a class="product-button" href="./enquiry.html">
+                            Enquire
+                        </a>
+
+                    </div>
+
+                </article>
 
 
-                <!-- Product -->
-                <label for="product">Product Interested In:</label>
-                <select
-                    id="product"
-                    name="product"
-                    required
-                >
-                    <option value="">-- Select a Product --</option>
-                    <option value="drip-cloud-collection" data-price="0">DRIP CLOUD Collection</option>
-                    <option value="cotton-tshirt" data-price="250">Cotton T-Shirt</option>
-                    <option value="grey-tracksuit" data-price="650">Grey Tracksuit</option>
-                    <option value="hustle-in-silence" data-price="300">Hustle in Silence</option>
-                    <option value="black-streetwear" data-price="400">Black Streetwear</option>
-                    <option value="red-black-graphic-tee" data-price="280">Red &amp; Black Graphic Tee</option>
-                    <option value="white-red-tee" data-price="280">White &amp; Red Tee</option>
-                    <option value="white-yellow-collection" data-price="350">White &amp; Yellow Collection</option>
-                    <option value="yellow-lightning-hoodie" data-price="520">Yellow Lightning Hoodie</option>
-                </select>
-                <span class="error-message" id="product-error" aria-live="polite"></span>
+                <!-- Product 2 -->
+                <article class="product-card">
+
+                    <a href="./enquiry.html">
+                        <img src="../image/products/cotton_tshirt_flatlay.jpg"
+                             alt="DRIP CLOUD Cotton T-Shirt">
+                    </a>
+
+                    <div class="product-card-content">
+
+                        <h3>Cotton T-Shirt</h3>
+
+                        <p>Comfortable cotton DRIP CLOUD T-shirt.</p>
+
+                        <strong>Price: R349.99</strong>
+
+                        <br><br>
+
+                        <a class="product-button" href="./enquiry.html">
+                            Enquire
+                        </a>
+
+                    </div>
+
+                </article>
 
 
-                <!-- Size -->
-                <label for="size">Preferred Size:</label>
-                <select
-                    id="size"
-                    name="size"
-                    required
-                >
-                    <option value="">-- Select a Size --</option>
-                    <option value="small">Small (S)</option>
-                    <option value="medium">Medium (M)</option>
-                    <option value="large">Large (L)</option>
-                    <option value="extra-large">Extra Large (XL)</option>
-                </select>
-                <span class="error-message" id="size-error" aria-live="polite"></span>
+                <!-- Product 3 -->
+                <article class="product-card">
+
+                    <a href="./enquiry.html">
+                        <img src="../image/products/grey_tracksuit_lookbook.jpg"
+                             alt="DRIP CLOUD Grey Tracksuit">
+                    </a>
+
+                    <div class="product-card-content">
+
+                        <h3>Grey Tracksuit</h3>
+
+                        <p>Comfortable DRIP CLOUD tracksuit.</p>
+
+                        <strong>Price: R899.99</strong>
+
+                        <br><br>
+
+                        <a class="product-button" href="./enquiry.html">
+                            Enquire
+                        </a>
+
+                    </div>
+
+                </article>
 
 
-                <!-- Quantity -->
-                <label for="quantity">Quantity:</label>
-                <input
-                    type="number"
-                    id="quantity"
-                    name="quantity"
-                    min="1"
-                    max="20"
-                    step="1"
-                    value="1"
-                    required
-                >
-                <span class="error-message" id="quantity-error" aria-live="polite"></span>
+                <!-- Product 4 -->
+                <article class="product-card">
+
+                    <a href="./enquiry.html">
+                        <img src="../image/products/husstle_in_silence.jpg"
+                             alt="DRIP CLOUD Hustle in Silence">
+                    </a>
+
+                    <div class="product-card-content">
+
+                        <h3>Hustle in Silence</h3>
+
+                        <p>DRIP CLOUD graphic clothing design.</p>
+
+                        <strong>Price: R449.99</strong>
+
+                        <br><br>
+
+                        <a class="product-button" href="./enquiry.html">
+                            Enquire
+                        </a>
+
+                    </div>
+
+                </article>
 
 
-                <!-- Enquiry details -->
-                <label for="message">Enquiry Details:</label>
-                <textarea
-                    id="message"
-                    name="message"
-                    rows="5"
-                    placeholder="Enter your enquiry here..."
-                    required
-                ></textarea>
-                <span class="error-message" id="message-error" aria-live="polite"></span>
+                <!-- Product 5 -->
+                <article class="product-card">
+
+                    <a href="./enquiry.html">
+                        <img src="../image/products/real-life-streetwear-photo-model-wearing-black-and.jpg"
+                             alt="DRIP CLOUD Black Streetwear">
+                    </a>
+
+                    <div class="product-card-content">
+
+                        <h3>Black Streetwear</h3>
+
+                        <p>Stylish DRIP CLOUD streetwear.</p>
+
+                        <strong>Price: R499.99</strong>
+
+                        <br><br>
+
+                        <a class="product-button" href="./enquiry.html">
+                            Enquire
+                        </a>
+
+                    </div>
+
+                </article>
 
 
-                <!-- Submit button -->
-                <button type="submit">Submit Enquiry</button>
+                <!-- Product 6 -->
+                <article class="product-card">
 
-            </form>
+                    <a href="./enquiry.html">
+                        <img src="../image/products/white-t.jpg"
+                             alt="DRIP CLOUD Red and Black Graphic Tee">
+                    </a>
+
+                    <div class="product-card-content">
+
+                        <h3>Red &amp; Black Graphic Tee</h3>
+
+                        <p>Bold DRIP CLOUD graphic T-shirt.</p>
+
+                        <strong>Price: R399.99</strong>
+
+                        <br><br>
+
+                        <a class="product-button" href="./enquiry.html">
+                            Enquire
+                        </a>
+
+                    </div>
+
+                </article>
 
 
-            <!-- Processed response shown on the page after submission -->
-            <section id="enquiry-result" class="enquiry-result" aria-live="polite" hidden>
-                <h3>Your Enquiry Summary</h3>
-                <p id="result-summary"></p>
-                <p id="result-total"></p>
-                <p id="result-stock"></p>
-            </section>
+                <!-- Product 7 -->
+                <article class="product-card">
+
+                    <a href="./enquiry.html">
+                        <img src="../image/products/white%20and%20red%20tee.jpg"
+                             alt="DRIP CLOUD White and Red Tee">
+                    </a>
+
+                    <div class="product-card-content">
+
+                        <h3>White &amp; Red Tee</h3>
+
+                        <p>White and red DRIP CLOUD T-shirt.</p>
+
+                        <strong>Price: R399.99</strong>
+
+                        <br><br>
+
+                        <a class="product-button" href="./enquiry.html">
+                            Enquire
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Product 8 -->
+                <article class="product-card">
+
+                    <a href="./enquiry.html">
+                        <img src="../image/products/white%20and%20yellow.jpg"
+                             alt="DRIP CLOUD White and Yellow Collection">
+                    </a>
+
+                    <div class="product-card-content">
+
+                        <h3>White &amp; Yellow Collection</h3>
+
+                        <p>Fresh white and yellow DRIP CLOUD style.</p>
+
+                        <strong>Price: R549.99</strong>
+
+                        <br><br>
+
+                        <a class="product-button" href="./enquiry.html">
+                            Enquire
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Product 9 -->
+                <article class="product-card">
+
+                    <a href="./enquiry.html">
+                        <img src="../image/products/yellow%20lightning%20hoodie.webp"
+                             alt="DRIP CLOUD Yellow Lightning Hoodie">
+                    </a>
+
+                    <div class="product-card-content">
+
+                        <h3>Yellow Lightning Hoodie</h3>
+
+                        <p>Bold DRIP CLOUD lightning hoodie.</p>
+
+                        <strong>Price: R649.99</strong>
+
+                        <br><br>
+
+                        <a class="product-button" href="./enquiry.html">
+                            Enquire
+                        </a>
+
+                    </div>
+
+                </article>
+
+            </div>
 
         </section>
 
@@ -181,139 +306,6 @@
         <p>&copy; 2026 DRIP CLOUD. All rights reserved.</p>
 
     </footer>
-
-
-    <!-- Validation and processed response -->
-    <script>
-        const form = document.getElementById("enquiry-form");
-        const resultBox = document.getElementById("enquiry-result");
-
-        const fields = {
-            fullname: {
-                input: document.getElementById("fullname"),
-                error: document.getElementById("fullname-error"),
-                message: "Please enter your full name."
-            },
-            email: {
-                input: document.getElementById("email"),
-                error: document.getElementById("email-error"),
-                message: "Please enter a valid email address."
-            },
-            "enquiry-type": {
-                input: document.getElementById("enquiry-type"),
-                error: document.getElementById("enquiry-type-error"),
-                message: "Please select an enquiry type."
-            },
-            product: {
-                input: document.getElementById("product"),
-                error: document.getElementById("product-error"),
-                message: "Please select a product."
-            },
-            size: {
-                input: document.getElementById("size"),
-                error: document.getElementById("size-error"),
-                message: "Please select a size."
-            },
-            quantity: {
-                input: document.getElementById("quantity"),
-                error: document.getElementById("quantity-error"),
-                message: "Please enter a quantity between 1 and 20."
-            },
-            message: {
-                input: document.getElementById("message"),
-                error: document.getElementById("message-error"),
-                message: "Please enter your enquiry details."
-            }
-        };
-
-        function isValidEmail(value) {
-            return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value);
-        }
-
-        function validateField(key) {
-            const field = fields[key];
-            const value = field.input.value.trim();
-            let valid = value !== "";
-
-            if (valid && key === "email") {
-                valid = isValidEmail(value);
-            }
-
-            if (valid && key === "quantity") {
-                const qty = Number(value);
-                valid = Number.isInteger(qty) && qty >= 1 && qty <= 20;
-            }
-
-            field.error.textContent = valid ? "" : field.message;
-            field.input.setAttribute("aria-invalid", String(!valid));
-            return valid;
-        }
-
-        // Validate each field when the user leaves it
-        Object.keys(fields).forEach(function (key) {
-            fields[key].input.addEventListener("blur", function () {
-                validateField(key);
-            });
-        });
-
-        form.addEventListener("submit", function (event) {
-            event.preventDefault();
-
-            let allValid = true;
-            let firstInvalid = null;
-
-            Object.keys(fields).forEach(function (key) {
-                if (!validateField(key)) {
-                    allValid = false;
-                    if (!firstInvalid) {
-                        firstInvalid = fields[key].input;
-                    }
-                }
-            });
-
-            if (!allValid) {
-                resultBox.hidden = true;
-                firstInvalid.focus();
-                return;
-            }
-
-            // Process the enquiry
-            const productSelect = fields.product.input;
-            const selectedOption = productSelect.options[productSelect.selectedIndex];
-            const productName = selectedOption.text;
-            const unitPrice = Number(selectedOption.dataset.price);
-            const quantity = Number(fields.quantity.input.value);
-            const sizeText = fields.size.input.options[fields.size.input.selectedIndex].text;
-            const typeText = fields["enquiry-type"].input.options[fields["enquiry-type"].input.selectedIndex].text;
-            const name = fields.fullname.input.value.trim();
-
-            const total = unitPrice * quantity;
-            const formattedTotal = "R " + total.toLocaleString("en-ZA", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
-
-            // Stock is shown as an estimate. Replace with live stock data if available.
-            const stockText = (fields["enquiry-type"].input.value === "sponsorship" || fields["enquiry-type"].input.value === "volunteer")
-                ? "Our team will review your request and respond by email."
-                : "Availability for size " + sizeText + " will be confirmed by our team by email.";
-
-            document.getElementById("result-summary").textContent =
-                "Thank you, " + name + ". Your " + typeText.toLowerCase() +
-                " request for " + quantity + " x " + productName + " (" + sizeText + ") has been received.";
-
-            if (unitPrice > 0) {
-                document.getElementById("result-total").textContent =
-                    "Estimated total: " + formattedTotal + " (" + quantity + " x R " + unitPrice.toFixed(2) + ")";
-            } else {
-                document.getElementById("result-total").textContent =
-                    "Pricing for this collection is confirmed on request.";
-            }
-
-            document.getElementById("result-stock").textContent = stockText;
-
-            resultBox.hidden = false;
-            resultBox.scrollIntoView({ behavior: "smooth", block: "nearest" });
-            form.reset();
-        });
-    </script>
 
 </body>
 
