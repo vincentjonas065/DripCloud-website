@@ -5,15 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>About Us</title>
+    <title>About Us | DRIP CLOUD</title>
 
     <!-- Website logo -->
     <link rel="icon" type="image/png" href="../image/background/logo2.jpg">
-    
 
-  <link rel="stylesheet" href="../css/styles.css">
-
-   
+    <!-- External stylesheet -->
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
 
 <body>
@@ -21,17 +19,14 @@
     <!-- Header and navigation -->
     <header>
 
-        <h1>
-
-            DRIP CLOUD
-        </h1>
+        <h1>DRIP CLOUD</h1>
 
         <p>Float Above the Rest</p>
 
-        <nav>
+        <nav aria-label="Main navigation">
             <ul>
                 <li><a href="../index.html">Home</a></li>
-                <li><a href="./about.html">About Us</a></li>
+                <li><a href="./about.html" aria-current="page">About Us</a></li>
                 <li><a href="./products.html">Products</a></li>
                 <li><a href="./enquiry.html">Enquiry</a></li>
                 <li><a href="./contact.html">Contact Us</a></li>
@@ -44,9 +39,9 @@
     <!-- Main About Us content -->
     <main>
 
-        <section class="about-section">
+        <section class="about-section" aria-labelledby="our-story-heading">
 
-            <h2>Our Story</h2>
+            <h2 id="our-story-heading">Our Story</h2>
 
             <p>
                 Established in 2026 in South Africa, DRIP CLOUD was created
@@ -54,16 +49,24 @@
                 urban streetwear.
             </p>
 
+        </section>
 
-            <h2>Mission Statement</h2>
+
+        <section class="about-section" aria-labelledby="mission-heading">
+
+            <h2 id="mission-heading">Mission Statement</h2>
 
             <p>
                 To deliver high-quality, authentic urban apparel that
                 empowers youth to express confidence and style.
             </p>
 
+        </section>
 
-            <h2>Vision Statement</h2>
+
+        <section class="about-section" aria-labelledby="vision-heading">
+
+            <h2 id="vision-heading">Vision Statement</h2>
 
             <p>
                 To become a household fashion brand in South Africa's
