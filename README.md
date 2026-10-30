@@ -29,7 +29,7 @@ Drip Cloud is a South African streetwear brand website developed as part of the 
 
 ## Repository Structure
 
-Keep this list in sync with the actual files and folders in the GitHub repository.
+
 
 ```text
 DripCloud-website/
