@@ -1,156 +1,119 @@
 # Drip Cloud Website Project
 
-> **Project Name:** Drip Cloud E-Commerce Website
-
-> **Course:** Web Development (WEDE5020)
-
-> **Student Name:** Vincent Jonas
-
-> **Student ID:** ST10503108
+**Project:** Drip Cloud E-Commerce Website  
+**Course:** Web Development (WEDE5020)  
+**Student:** Vincent Jonas  
+**Student number:** ST10503108
 
 ## Project Overview
 
-Drip Cloud is a South African streetwear brand website developed as part of the Web Development coursework.
+Drip Cloud is a South African streetwear brand website developed as part of the Web Development coursework. The website introduces the brand and provides information about its products, enquiries and contact details. It is a multi-page website built with HTML and CSS, with responsive layouts for desktop, tablet and mobile screens.
 
-The website provides visitors with information about the Drip Cloud brand, products, enquiries and contact details. The website contains multiple pages and provides a consistent navigation structure throughout the site.
+## Website Goals
 
-The project was developed using HTML5 and CSS3, with a focus on semantic HTML, consistent styling, usability and responsive web design.
+- Present the Drip Cloud brand and its products.
+- Help visitors navigate the website and find product and contact information.
+- Let visitors make product enquiries and contact the organisation.
+- Provide a consistent, responsive experience across screen sizes.
 
-## Website Features
+## Website Pages and Features
 
-The website includes:
-
-- A homepage introducing the Drip Cloud brand.
-- An About page containing information about the brand.
-- A Products page displaying available products and prices.
-- An Enquiry page containing an enquiry form.
-- A Contact page containing contact information and a map.
-- A Thank You page confirming a submitted enquiry.
-- Consistent navigation across the website.
-- Responsive layouts for desktop, tablet and mobile screen sizes.
-- Responsive product images.
-- CSS hover and focus effects.
-- An external CSS stylesheet shared across the website pages.
-
-## Technologies Used
-
-- HTML5
-- CSS3
-- Visual Studio Code
-- Git and GitHub
-- Live Server
-- Responsive Web Design
-- Semantic HTML elements
+- **Home:** Introduces the brand and links to key pages.
+- **About Us:** Presents the brand story, mission, vision and values.
+- **Products:** Displays products, descriptions and prices.
+- **Enquiry:** Provides a form for product enquiries.
+- **Contact Us:** Provides contact details and a map.
+- **Thank You:** Confirms an enquiry and offers links to continue browsing.
+- Shared navigation and external CSS styling across the website pages.
+- Responsive layouts, product images, forms, and hover and focus styles.
 
 ## Repository Structure
 
-The project is arranged into the following files and folders:
+Keep this list in sync with the actual files and folders in the GitHub repository.
 
-- `index.html` – Home page of the Drip Cloud website.
-- `pages/` – Contains the About, Products, Enquiry, Contact and Thank You pages.
-- `css/` – Contains the external stylesheet used throughout the website.
-- `js/` – Contains JavaScript files used by the website where applicable.
-- `image/` – Contains background and product images used on the website.
-- `wireframes/` – Contains website wireframes created during the planning stage.
-- `README.md` – Contains project information, setup instructions and references.
+```text
+DripCloud-website/
+├── index.html           # Home page
+├── pages/               # About, Products, Enquiry, Contact and Thank You pages
+├── css/                 # Shared stylesheets
+├── js/                  # JavaScript files, when used
+├── image/               # Website and product images
+├── wireframes/          # Planning wireframes
+├── screenshots/         # Desktop, tablet and mobile evidence for this README
+├── CHANGELOG.md         # Record of project development
+└── README.md            # Project information and instructions
+```
 
-## Website Pages
+## Technologies and Tools
 
-### Home
+- HTML5 and CSS3
+- JavaScript, where implemented
+- Visual Studio Code and Live Server
+- Git and GitHub
+- Responsive Web Design
 
-Introduces the Drip Cloud brand and provides links to important sections of the website.
+## Design, Responsiveness and Accessibility
 
-### About Us
+The site uses a streetwear-inspired style with dark headers and footers, light content areas, and high-contrast text. The shared stylesheet controls typography, colour, spacing, navigation, buttons, product cards, forms, images and page layouts. Responsive breakpoints adapt the navigation, product grids, typography, images, map and page spacing to smaller screens.
 
-Provides information about the Drip Cloud brand, its story, mission, vision and values.
+The pages use semantic elements such as `header`, `nav`, `main`, `section` and `footer`. Images should have useful alternative text, and form controls should have visible labels and appropriate validation. Check these details on every page as the site is updated.
 
-### Products
+## Responsive Website Screenshots
 
-Displays the available Drip Cloud products, product descriptions and prices.
+Add the three actual screenshot files to the repository at the paths below. Then confirm they display on the GitHub README page.
 
-### Enquiry
+### Desktop
 
-Allows visitors to submit an enquiry about products and provide their contact information.
+![Drip Cloud website at desktop size](screenshots/home-desktop.png)
 
-### Contact Us
+### Tablet
 
-Provides contact information and a map to help visitors locate or contact Drip Cloud.
+![Drip Cloud website at tablet size](screenshots/home-tablet.png)
 
-### Thank You
+### Mobile
 
-Confirms that an enquiry has been submitted successfully and provides links to continue browsing the website.
+![Drip Cloud website at mobile size](screenshots/home-mobile.png)
 
-## Design and Styling
+## Part 1 Feedback and Improvements
 
-The website uses an external CSS stylesheet to provide consistent styling across all pages.
+**Feedback received:** The Part 1 submission was a ZIP file. The marker advised me to follow the submission instructions and stated that zipped folders would not be accepted.
 
-The stylesheet controls:
+**Action for Part 2:** The Part 2 submission included the GitHub repository link and the deployed website link.
 
-- Typography
-- Colours
-- Spacing
-- Navigation
-- Buttons
-- Product cards
-- Forms
-- Images
-- Page layouts
-- Responsive behaviour
-- Hover and focus states
+**Action for Part 3:** Push the completed website and README updates to the GitHub repository, then submit the repository link and deployed website link through the LMS. Do not submit the website as a ZIP file.
 
-The design uses a simple streetwear-inspired visual style with dark headers and footers, light content areas and strong contrast between text and backgrounds.
+## Part 2 Improvements
 
-## Responsive Design
+Part 2 focused on CSS styling and responsive design. The recorded updates include:
 
-The website was developed to work across different screen sizes.
+- Updated and linked the external stylesheet across the website pages.
+- Added default styles, typography, layout, colour and decoration.
+- Added hover, focus and active pseudo-classes.
+- Added tablet, mobile and small-screen breakpoints.
+- Improved responsive navigation, product images, product grids, typography and contact map styling.
+- Removed unnecessary inline styling and improved the Thank You page layout.
+- Recorded Part 1 feedback improvements in `CHANGELOG.md`.
 
-The CSS includes responsive breakpoints for:
+## Part 3 Progress
 
-- Desktop screens
-- Tablet screens
-- Mobile screens
-- Small mobile screens
+Update this section as work is completed. Do not mark an item complete until it has been implemented and checked on the deployed site.
 
-The responsive design adjusts:
+- [ ] Record and implement any corrections from Part 2 marker feedback.
+- [ ] Implement and verify JavaScript interactive elements.
+- [ ] Implement and verify the interactive map and gallery lightbox.
+- [ ] Implement dynamic product content and product search/filtering.
+- [ ] Add page-specific SEO titles, descriptions, keywords, image names and alt text.
+- [ ] Add and check `robots.txt` and `sitemap.xml`.
+- [ ] Complete enquiry form controls, validation and relevant response.
+- [ ] Complete contact form controls, validation and email process.
+- [ ] Deploy the site and check every page and feature.
+- [ ] Add final desktop, tablet and mobile screenshots above.
+- [ ] Update references and changelog; push descriptive commits.
 
-- Product grid columns
-- Navigation layout
-- Font sizes
-- Section spacing
-- Product image sizes
-- Map height
-- Page padding
-- Button and navigation sizing
+## GitHub and Deployment
 
-On smaller screens, the navigation changes to a vertical layout and the product grid changes to fewer columns so that content remains readable and accessible.
-
-## Accessibility and Usability
-
-The website uses semantic HTML elements such as:
-
-- `header`
-- `nav`
-- `main`
-- `section`
-- `footer`
-
-Images include descriptive `alt` text where appropriate.
-
-Form fields use labels and required fields where necessary.
-
-The website also includes visible focus states and hover states to improve usability.
-
-## GitHub
-
-The project is maintained using Git and GitHub.
-
-Repository:
-
-https://github.com/vincentjonas065/DripCloud-website
-
-Git was used to track development changes throughout the project.
-
-Descriptive commit messages were used to identify major changes such as stylesheet updates, page restructuring and responsive design improvements.
+- **Repository:** https://github.com/vincentjonas065/DripCloud-website
+- **Deployed website:** Add the current public deployment URL here before submitting.
 
 ## How to Run Locally
 
@@ -158,34 +121,10 @@ Descriptive commit messages were used to identify major changes such as styleshe
 
 ```bash
 git clone https://github.com/vincentjonas065/DripCloud-website.git
+```
+
 2. Open the project folder in Visual Studio Code.
-
-3. Open `index.html`.
-
-4. Use the Live Server extension in Visual Studio Code or open `index.html` directly in a modern web browser.
-
-## Part 2 Improvements
-
-Part 2 focused on improving the website styling and responsive behaviour.
-
-The main improvements include:
-
-- Updated the external CSS stylesheet.
-- Applied the stylesheet consistently across all website pages.
-- Added default CSS styles.
-- Added typography styles.
-- Improved page layout and spacing.
-- Added colours, backgrounds, borders and decorative styling.
-- Added hover, focus and active pseudo-classes.
-- Added responsive CSS media queries.
-- Added tablet, mobile and small-screen breakpoints.
-- Improved responsive navigation.
-- Improved responsive product images.
-- Improved responsive product grids.
-- Improved responsive typography.
-- Added responsive styling for the contact map.
-- Removed unnecessary inline styling from pages.
-- Improved the Thank You page layout.
+3. Open `index.html` with Live Server or in a modern web browser.
 
 ## References
 
@@ -206,3 +145,5 @@ ROBINS, D. and HOLMES, J., 2008. Aesthetics and credibility in web site design. 
 WORLD WIDE WEB CONSORTIUM (W3C), 2026. *Web Content Accessibility Guidelines (WCAG) 2.2* [online]. Available at: https://www.w3.org/TR/WCAG22/ [Accessed 5 August 2026].
 
 W3SCHOOLS, 2026. *HTML5 Semantic Elements* [online]. Available at: https://www.w3schools.com/html/html5_semantic_elements.asp [Accessed 5 August 2026].
+
+Add references for any new research, images, code or external services used in Part 3, following the Harvard Style Referencing Guide adapted for the IIE. Include AI use in the required format if applicable.
