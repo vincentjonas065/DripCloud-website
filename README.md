@@ -29,7 +29,7 @@ Drip Cloud is a South African streetwear brand website developed as part of the 
 
 ## Repository Structure
 
-Keep this list in sync with the actual files and folders in the GitHub repository.
+
 
 ```text
 DripCloud-website/
@@ -64,15 +64,15 @@ Add the three actual screenshot files to the repository at the paths below. Then
 
 ### Desktop
 
-![Drip Cloud website at desktop size](screenshots/home-desktop.png)
+![Drip Cloud website at desktop size](screenshots/Home_desktop.png)
 
 ### Tablet
 
-![Drip Cloud website at tablet size](screenshots/home-tablet.png)
+![Drip Cloud website at tablet size](screenshots/Home_tablet.png)
 
 ### Mobile
 
-![Drip Cloud website at mobile size](screenshots/home-mobile.png)
+![Drip Cloud website at mobile size](screenshots/Home_mobile.png)
 
 ## Part 1 Feedback and Improvements
 
