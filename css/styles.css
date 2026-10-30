@@ -312,6 +312,22 @@ main {
     margin-bottom: 0;
 }
 
+.product-search-control input[type="search"] {
+    border: 2px solid #b00020;
+    background-color: #b00020;
+    color: #ffffff;
+}
+
+.product-search-control input[type="search"]::placeholder {
+    color: #ffffff;
+    opacity: 1;
+}
+
+.product-search-control input[type="search"]:focus {
+    outline: 3px solid #111111;
+    outline-offset: 2px;
+}
+
 .product-results {
     max-width: 800px;
     min-height: 1.6em;
