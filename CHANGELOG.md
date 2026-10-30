@@ -1,5 +1,23 @@
 # DripCloud Website – Changelog
 
+## Version 2.1 – Part 3
+
+### October 2026
+
+### JavaScript functionality
+
+* Added live product search and sorting by name and price.
+* Added an accessible result count and no-results message that update as the product list is filtered.
+* Added a single-open accordion to the About page using native disclosure controls with JavaScript behavior.
+* Added a product image lightbox with close, previous and next controls, keyboard arrow navigation and touch swipe navigation.
+* Added responsive styling for the product controls and lightbox, with reduced-motion support for the lightbox animation.
+* Updated the Contact page pickup location label and map title to Rosebank International Nelson Mandela Bay.
+* Added a map selector for Torga Optical Greenacres Mall as the second location, with a link to open the selected place in Google Maps.
+* Verified both map selections update the map, status text and Google Maps link in desktop and mobile browser previews; no console warnings or errors appeared during the check.
+* Removed an unused deployment-URL placeholder from the README; add the real URL after deployment.
+* Verified product search, sorting, no-results feedback, lightbox navigation and accordion behavior in a desktop browser and a 390 × 844 mobile viewport.
+* Checked browser logs during these interactions; no warnings or errors were reported. A physical touch-device swipe check remains pending.
+
 ## Version 2.0 – Part 2
 
 ### September 2026

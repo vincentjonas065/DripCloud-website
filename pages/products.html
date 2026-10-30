@@ -48,13 +48,32 @@
                 unique streetwear styles from DRIP CLOUD.
             </p>
 
+            <div class="product-tools" aria-label="Find and sort products">
+                <div class="product-search-control">
+                    <label for="product-search">Search products</label>
+                    <input type="search" id="product-search" name="product-search"
+                           placeholder="Try hoodie, tee, tracksuit..." autocomplete="off">
+                </div>
+                <div class="product-sort-control">
+                    <label for="product-sort">Sort by</label>
+                    <select id="product-sort" name="product-sort">
+                        <option value="featured">Featured</option>
+                        <option value="name-asc">Name (A to Z)</option>
+                        <option value="price-asc">Price (low to high)</option>
+                        <option value="price-desc">Price (high to low)</option>
+                    </select>
+                </div>
+            </div>
+            <p id="product-results" class="product-results" role="status" aria-live="polite"></p>
+            <p id="no-products" class="no-products" hidden>No products match your search. Try another name or clear the search.</p>
+
 
             <div class="product-grid">
 
                 <!-- Product 1 -->
                 <article class="product-card">
 
-                    <a href="./enquiry.html">
+                    <a href="../image/products/OIP.jpg" data-lightbox aria-label="View DRIP CLOUD Collection image larger">
                         <img src="../image/products/OIP.jpg"
                              alt="DRIP CLOUD Collection">
                     </a>
@@ -81,7 +100,7 @@
                 <!-- Product 2 -->
                 <article class="product-card">
 
-                    <a href="./enquiry.html">
+                    <a href="../image/products/cotton_tshirt_flatlay.jpg" data-lightbox aria-label="View Cotton T-Shirt image larger">
                         <img src="../image/products/cotton_tshirt_flatlay.jpg"
                              alt="DRIP CLOUD Cotton T-Shirt">
                     </a>
@@ -108,7 +127,7 @@
                 <!-- Product 3 -->
                 <article class="product-card">
 
-                    <a href="./enquiry.html">
+                    <a href="../image/products/grey_tracksuit_lookbook.jpg" data-lightbox aria-label="View Grey Tracksuit image larger">
                         <img src="../image/products/grey_tracksuit_lookbook.jpg"
                              alt="DRIP CLOUD Grey Tracksuit">
                     </a>
@@ -135,7 +154,7 @@
                 <!-- Product 4 -->
                 <article class="product-card">
 
-                    <a href="./enquiry.html">
+                    <a href="../image/products/husstle_in_silence.jpg" data-lightbox aria-label="View Hustle in Silence image larger">
                         <img src="../image/products/husstle_in_silence.jpg"
                              alt="DRIP CLOUD Hustle in Silence">
                     </a>
@@ -162,7 +181,7 @@
                 <!-- Product 5 -->
                 <article class="product-card">
 
-                    <a href="./enquiry.html">
+                    <a href="../image/products/real-life-streetwear-photo-model-wearing-black-and.jpg" data-lightbox aria-label="View Black Streetwear image larger">
                         <img src="../image/products/real-life-streetwear-photo-model-wearing-black-and.jpg"
                              alt="DRIP CLOUD Black Streetwear">
                     </a>
@@ -189,7 +208,7 @@
                 <!-- Product 6 -->
                 <article class="product-card">
 
-                    <a href="./enquiry.html">
+                    <a href="../image/products/white-t.jpg" data-lightbox aria-label="View Red and Black Graphic Tee image larger">
                         <img src="../image/products/white-t.jpg"
                              alt="DRIP CLOUD Red and Black Graphic Tee">
                     </a>
@@ -216,7 +235,7 @@
                 <!-- Product 7 -->
                 <article class="product-card">
 
-                    <a href="./enquiry.html">
+                    <a href="../image/products/white%20and%20red%20tee.jpg" data-lightbox aria-label="View White and Red Tee image larger">
                         <img src="../image/products/white%20and%20red%20tee.jpg"
                              alt="DRIP CLOUD White and Red Tee">
                     </a>
@@ -243,7 +262,7 @@
                 <!-- Product 8 -->
                 <article class="product-card">
 
-                    <a href="./enquiry.html">
+                    <a href="../image/products/white%20and%20yellow.jpg" data-lightbox aria-label="View White and Yellow Collection image larger">
                         <img src="../image/products/white%20and%20yellow.jpg"
                              alt="DRIP CLOUD White and Yellow Collection">
                     </a>
@@ -270,7 +289,7 @@
                 <!-- Product 9 -->
                 <article class="product-card">
 
-                    <a href="./enquiry.html">
+                    <a href="../image/products/yellow%20lightning%20hoodie.webp" data-lightbox aria-label="View Yellow Lightning Hoodie image larger">
                         <img src="../image/products/yellow%20lightning%20hoodie.webp"
                              alt="DRIP CLOUD Yellow Lightning Hoodie">
                     </a>
@@ -306,6 +325,19 @@
         <p>&copy; 2026 DRIP CLOUD. All rights reserved.</p>
 
     </footer>
+
+    <dialog class="product-lightbox" id="product-lightbox" aria-label="Product image gallery">
+        <div class="lightbox-toolbar">
+            <p class="lightbox-caption" id="lightbox-caption"></p>
+            <button class="lightbox-close" type="button" aria-label="Close image">&times;</button>
+        </div>
+        <button class="lightbox-nav lightbox-previous" type="button" aria-label="Previous product image">&#10094;</button>
+        <img class="lightbox-image" id="lightbox-image" alt="">
+        <button class="lightbox-nav lightbox-next" type="button" aria-label="Next product image">&#10095;</button>
+        <p class="lightbox-position" id="lightbox-position" aria-live="polite"></p>
+    </dialog>
+
+    <script src="../js/js.js" defer></script>
 
 </body>
 

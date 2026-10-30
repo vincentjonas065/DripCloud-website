@@ -22,7 +22,7 @@ Drip Cloud is a South African streetwear brand website developed as part of the 
 - **About Us:** Presents the brand story, mission, vision and values.
 - **Products:** Displays products, descriptions and prices.
 - **Enquiry:** Provides a form for product enquiries.
-- **Contact Us:** Provides contact details and a map.
+- **Contact Us:** Provides contact details and a selector for Rosebank International Nelson Mandela Bay and Torga Optical Greenacres Mall.
 - **Thank You:** Confirms an enquiry and offers links to continue browsing.
 - Shared navigation and external CSS styling across the website pages.
 - Responsive layouts, product images, forms, and hover and focus styles.
@@ -47,7 +47,7 @@ DripCloud-website/
 ## Technologies and Tools
 
 - HTML5 and CSS3
-- JavaScript, where implemented
+- JavaScript for product search, sorting, accordion behavior and the product image gallery
 - Visual Studio Code and Live Server
 - Git and GitHub
 - Responsive Web Design
@@ -60,19 +60,19 @@ The pages use semantic elements such as `header`, `nav`, `main`, `section` and `
 
 ## Responsive Website Screenshots
 
-Add the three actual screenshot files to the repository at the paths below. Then confirm they display on the GitHub README page.
+The screenshots below show the homepage at desktop, tablet and mobile sizes. The image files are stored in the repository's `screenshots/` folder.
 
 ### Desktop
 
-![Drip Cloud website at desktop size](screenshots/home-desktop.png)
+![Drip Cloud website at desktop size](screenshots/Home_desktop.png)
 
 ### Tablet
 
-![Drip Cloud website at tablet size](screenshots/home-tablet.png)
+![Drip Cloud website at tablet size](screenshots/Home_tablet.png)
 
 ### Mobile
 
-![Drip Cloud website at mobile size](screenshots/home-mobile.png)
+![Drip Cloud website at mobile size](screenshots/Home_mobile.png)
 
 ## Part 1 Feedback and Improvements
 
@@ -99,21 +99,22 @@ Part 2 focused on CSS styling and responsive design. The recorded updates includ
 Update this section as work is completed. Do not mark an item complete until it has been implemented and checked on the deployed site.
 
 - [ ] Record and implement any corrections from Part 2 marker feedback.
-- [ ] Implement and verify JavaScript interactive elements.
-- [ ] Implement and verify the interactive map and gallery lightbox.
-- [ ] Implement dynamic product content and product search/filtering.
+- [x] Implement an About page accordion and a product image lightbox with keyboard controls and mobile swipe support.
+- [x] Add dynamic product filtering, sorting, result counts and no-results feedback.
+- [x] Verify search, sorting, no-results feedback, lightbox navigation and accordion behavior at desktop and mobile viewport sizes; no browser console warnings or errors appeared during these checks.
+- [ ] Verify lightbox swipe navigation on a physical touch device.
+- [x] Add and verify an interactive map selector for Rosebank International Nelson Mandela Bay and Torga Optical Greenacres Mall.
 - [ ] Add page-specific SEO titles, descriptions, keywords, image names and alt text.
 - [ ] Add and check `robots.txt` and `sitemap.xml`.
 - [ ] Complete enquiry form controls, validation and relevant response.
 - [ ] Complete contact form controls, validation and email process.
 - [ ] Deploy the site and check every page and feature.
-- [ ] Add final desktop, tablet and mobile screenshots above.
+- [ ] Capture final desktop, tablet and mobile screenshots after the Part 3 features are complete.
 - [ ] Update references and changelog; push descriptive commits.
 
 ## GitHub and Deployment
 
 - **Repository:** https://github.com/vincentjonas065/DripCloud-website
-- **Deployed website:** Add the current public deployment URL here before submitting.
 
 ## How to Run Locally
 
@@ -146,4 +147,4 @@ WORLD WIDE WEB CONSORTIUM (W3C), 2026. *Web Content Accessibility Guidelines (WC
 
 W3SCHOOLS, 2026. *HTML5 Semantic Elements* [online]. Available at: https://www.w3schools.com/html/html5_semantic_elements.asp [Accessed 5 August 2026].
 
-Add references for any new research, images, code or external services used in Part 3, following the Harvard Style Referencing Guide adapted for the IIE. Include AI use in the required format if applicable.
+Add references for any new research, images, code or external services used in Part 3, following the Harvard Style Referencing Guide adapted for the IIE.
