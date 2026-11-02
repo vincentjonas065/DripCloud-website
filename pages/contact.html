@@ -103,7 +103,7 @@
 
             <h2 id="form-heading">Send Us a Message</h2>
 
-            <form id="contact-form" novalidate>
+            <form id="contact-form" action="mailto:support@dripcloud.co.za" method="post" enctype="text/plain" novalidate>
 
                 <!-- Full Name -->
                 <label for="name">Full Name:</label>
@@ -111,6 +111,7 @@
                     type="text"
                     id="name"
                     name="name"
+                    minlength="2" maxlength="80"
                     autocomplete="name"
                     required
                 >
@@ -123,6 +124,7 @@
                     type="email"
                     id="email"
                     name="email"
+                    maxlength="254"
                     autocomplete="email"
                     required
                 >
@@ -151,6 +153,7 @@
                 <textarea
                     id="message"
                     name="message"
+                    minlength="10" maxlength="1000"
                     rows="6"
                     placeholder="Enter your message here..."
                     required
@@ -187,12 +190,12 @@
             name: {
                 input: document.getElementById("name"),
                 error: document.getElementById("name-error"),
-                message: "Please enter your full name."
+                message: "Enter a name between 2 and 80 characters."
             },
             email: {
                 input: document.getElementById("email"),
                 error: document.getElementById("email-error"),
-                message: "Please enter a valid email address."
+                message: "Enter a valid email address (up to 254 characters)."
             },
             "message-type": {
                 input: document.getElementById("message-type"),
@@ -202,7 +205,7 @@
             message: {
                 input: document.getElementById("message"),
                 error: document.getElementById("message-error"),
-                message: "Please enter your message."
+                message: "Enter a message between 10 and 1000 characters."
             }
         };
 
@@ -215,8 +218,16 @@
             const value = field.input.value.trim();
             let valid = value !== "";
 
+            if (valid && key === "name") {
+                valid = value.length >= 2 && value.length <= 80;
+            }
+
             if (valid && key === "email") {
-                valid = isValidEmail(value);
+                valid = value.length <= 254 && isValidEmail(value);
+            }
+
+            if (valid && key === "message") {
+                valid = value.length >= 10 && value.length <= 1000;
             }
 
             field.error.textContent = valid ? "" : field.message;

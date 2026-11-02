@@ -52,7 +52,7 @@
 
 
             <!-- Enquiry form -->
-            <form id="enquiry-form" novalidate>
+            <form id="enquiry-form" action="mailto:support@dripcloud.co.za" method="post" enctype="text/plain" novalidate>
 
                 <!-- Full Name -->
                 <label for="fullname">Full Name:</label>
@@ -60,6 +60,7 @@
                     type="text"
                     id="fullname"
                     name="fullname"
+                    minlength="2" maxlength="80"
                     autocomplete="name"
                     required
                 >
@@ -72,6 +73,7 @@
                     type="email"
                     id="email"
                     name="email"
+                    maxlength="254"
                     autocomplete="email"
                     required
                 >
@@ -151,6 +153,7 @@
                 <textarea
                     id="message"
                     name="message"
+                    minlength="10" maxlength="1000"
                     rows="5"
                     placeholder="Enter your enquiry here..."
                     required
@@ -194,12 +197,12 @@
             fullname: {
                 input: document.getElementById("fullname"),
                 error: document.getElementById("fullname-error"),
-                message: "Please enter your full name."
+                message: "Enter a name between 2 and 80 characters."
             },
             email: {
                 input: document.getElementById("email"),
                 error: document.getElementById("email-error"),
-                message: "Please enter a valid email address."
+                message: "Enter a valid email address (up to 254 characters)."
             },
             "enquiry-type": {
                 input: document.getElementById("enquiry-type"),
@@ -224,7 +227,7 @@
             message: {
                 input: document.getElementById("message"),
                 error: document.getElementById("message-error"),
-                message: "Please enter your enquiry details."
+                message: "Enter enquiry details between 10 and 1000 characters."
             }
         };
 
@@ -237,8 +240,16 @@
             const value = field.input.value.trim();
             let valid = value !== "";
 
+            if (valid && key === "fullname") {
+                valid = value.length >= 2 && value.length <= 80;
+            }
+
             if (valid && key === "email") {
-                valid = isValidEmail(value);
+                valid = value.length <= 254 && isValidEmail(value);
+            }
+
+            if (valid && key === "message") {
+                valid = value.length >= 10 && value.length <= 1000;
             }
 
             if (valid && key === "quantity") {
@@ -299,7 +310,7 @@
 
             document.getElementById("result-summary").textContent =
                 "Thank you, " + name + ". Your " + typeText.toLowerCase() +
-                " request for " + quantity + " x " + productName + " (" + sizeText + ") has been received.";
+                " request for " + quantity + " x " + productName + " (" + sizeText + ") is ready to send. Send the email draft to complete your request.";
 
             if (unitPrice > 0) {
                 document.getElementById("result-total").textContent =
@@ -311,9 +322,25 @@
 
             document.getElementById("result-stock").textContent = stockText;
 
+            const emailSubject = "DRIP CLOUD Product Enquiry: " + typeText;
+            const emailBody = [
+                "Name: " + name,
+                "Email: " + fields.email.input.value.trim(),
+                "Enquiry type: " + typeText,
+                "Product: " + productName,
+                "Size: " + sizeText,
+                "Quantity: " + quantity,
+                document.getElementById("result-total").textContent,
+                "",
+                "Enquiry details:",
+                fields.message.input.value.trim()
+            ].join("\n");
+            const emailUrl = "mailto:support@dripcloud.co.za?subject=" +
+                encodeURIComponent(emailSubject) + "&body=" + encodeURIComponent(emailBody);
             resultBox.hidden = false;
             resultBox.scrollIntoView({ behavior: "smooth", block: "nearest" });
             form.reset();
+            window.location.href = emailUrl;
         });
     </script>
 
