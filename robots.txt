@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://vincentjonas065.github.io/DripCloud-website/sitemap.xml

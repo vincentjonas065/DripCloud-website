@@ -96,7 +96,7 @@ Part 2 focused on CSS styling and responsive design. The recorded updates includ
 
 ## Part 3 Progress
 
-Update this section as work is completed. Do not mark an item complete until it has been implemented and checked on the deployed site.
+Update this section as work is completed. Mark implementation items complete after the local work is checked; keep deployed-site verification unchecked until the updated site is published and checked.
 
 - [ ] Record and implement any corrections from Part 2 marker feedback.
 - [x] Implement an About page accordion and a product image lightbox with keyboard controls and mobile swipe support.
@@ -104,8 +104,11 @@ Update this section as work is completed. Do not mark an item complete until it 
 - [x] Verify search, sorting, no-results feedback, lightbox navigation and accordion behavior at desktop and mobile viewport sizes; no browser console warnings or errors appeared during these checks.
 - [ ] Verify lightbox swipe navigation on a physical touch device.
 - [x] Add and verify an interactive map selector for Rosebank International Nelson Mandela Bay and Torga Optical Greenacres Mall.
-- [ ] Add page-specific SEO titles, descriptions, keywords, image names and alt text.
-- [ ] Add and check `robots.txt` and `sitemap.xml`.
+- [x] Add page-specific titles, meta descriptions and meta keyword tags to all six pages.
+- [x] Review product image alt text against the images; existing image filenames are unchanged.
+- [ ] Record keyword research and confirm the selected terms match the site content.
+- [x] Create `robots.txt` and `sitemap.xml` using the public GitHub Pages URL; validate the sitemap XML locally.
+- [ ] Verify the crawler files and SEO changes on the deployed site after publishing.
 - [ ] Complete enquiry form controls, validation and relevant response.
 - [ ] Complete contact form controls, validation and email process.
 - [ ] Deploy the site and check every page and feature.
@@ -115,6 +118,7 @@ Update this section as work is completed. Do not mark an item complete until it 
 ## GitHub and Deployment
 
 - **Repository:** https://github.com/vincentjonas065/DripCloud-website
+- **Live website:** https://vincentjonas065.github.io/DripCloud-website/
 
 ## How to Run Locally
 

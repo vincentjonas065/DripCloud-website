@@ -2,7 +2,7 @@
 
 ## Version 2.1 – Part 3
 
-### October 2026
+### October-November 2026
 
 ### JavaScript functionality
 
@@ -17,6 +17,11 @@
 * Removed an unused deployment-URL placeholder from the README; add the real URL after deployment.
 * Verified product search, sorting, no-results feedback, lightbox navigation and accordion behavior in a desktop browser and a 390 × 844 mobile viewport.
 * Checked browser logs during these interactions; no warnings or errors were reported. A physical touch-device swipe check remains pending.
+* Added unique page titles, meta descriptions and meta keyword tags to all six HTML pages.
+* Updated product image alt text to describe the visible designs; existing image filenames were left unchanged.
+* Added robots.txt pointing crawlers to the sitemap.xml file.
+* Added sitemap.xml with five public website pages, excluding the Thank You page marked noindex; validated the XML locally.
+* Added the supplied GitHub Pages URL to the README and used it as the sitemap base URL.
 
 ## Version 2.0 – Part 2
 
