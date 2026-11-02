@@ -4,6 +4,10 @@
 
 ### October-November 2026
 
+### Part 2 feedback response
+
+* Added a Part 2 feedback response in README covering the missing Part 1 improvement record, repository organisation and missing screenshots.
+
 ### JavaScript functionality
 
 * Added live product search and sorting by name and price.
@@ -14,7 +18,7 @@
 * Updated the Contact page pickup location label and map title to Rosebank International Nelson Mandela Bay.
 * Added a map selector for Torga Optical Greenacres Mall as the second location, with a link to open the selected place in Google Maps.
 * Verified both map selections update the map, status text and Google Maps link in desktop and mobile browser previews; no console warnings or errors appeared during the check.
-* Removed an unused deployment-URL placeholder from the README; add the real URL after deployment.
+* Removed an unused deployment-URL placeholder before recording the supplied public GitHub Pages URL.
 * Verified product search, sorting, no-results feedback, lightbox navigation and accordion behavior in a desktop browser and a 390 × 844 mobile viewport.
 * Checked browser logs during these interactions; no warnings or errors were reported. A physical touch-device swipe check remains pending.
 * Added unique page titles, meta descriptions and meta keyword tags to all six HTML pages.
@@ -22,6 +26,9 @@
 * Added robots.txt pointing crawlers to the sitemap.xml file.
 * Added sitemap.xml with five public website pages, excluding the Thank You page marked noindex; validated the XML locally.
 * Added the supplied GitHub Pages URL to the README and used it as the sitemap base URL.
+* Added name and message length limits, email-length checks and matching JavaScript validation messages to both forms.
+* Added mailto form actions; the Enquiry form prepares a prefilled email draft alongside the on-page estimate and availability response.
+* The enquiry and contact email handoffs rely on the visitor having an email client configured; the visitor must send the email draft to complete the request.
 
 ## Version 2.0 – Part 2
 
